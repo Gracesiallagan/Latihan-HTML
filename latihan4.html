@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Semua Halaman Latihan HTML</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#blog">Blog</a> | <a href="#detail-blog">Detail Blog</a> |
+      <a href="#form-pendaftaran">Form Pendaftaran</a> |
+      <a href="#tabel-nilai">Tabel Nilai</a> |
+      <a href="#cv">Curriculum Vitae</a>
+    </nav>
+    <hr />
+
+    <!-- Blog -->
+    <section id="blog">
+      <h1>Judul Blog: Belajar HTML Dasar</h1>
+      <img src="gambar-blog.jpg" alt="Gambar Blog" width="400" />
+      <hr />
+      <h2>Author</h2>
+      <img src="photo-author.jpg" alt="Foto Author" width="100" />
+      <p>Nama: Grace Evelin Siallagan</p>
+      <p>Tanggal Posting: 4 September 2025</p>
+      <h3>Label:</h3>
+      <ul>
+        <li>HTML</li>
+        <li>Pemrograman Web</li>
+        <li>Dasar</li>
+      </ul>
+    </section>
+    <hr />
+
+    <!-- Detail Blog -->
+    <section id="detail-blog">
+      <h1>Detail Blog: Belajar HTML Dasar</h1>
+      <img src="cover-blog.jpg" alt="Cover Blog" width="400" />
+      <hr />
+      <h2>Author</h2>
+      <img src="photo-author.jpg" alt="Foto Author" width="100" />
+      <p>Nama: Grace Evelin Siallagan</p>
+      <p>Tanggal Posting: 4 September 2025</p>
+      <h3>Label:</h3>
+      <ul>
+        <li>HTML</li>
+        <li>Pemrograman Web</li>
+        <li>Dasar</li>
+      </ul>
+      <h3>Deskripsi Blog</h3>
+      <p>
+        Blog ini membahas dasar-dasar HTML untuk pemula yang ingin belajar
+        membuat halaman web sederhana.
+      </p>
+      <hr />
+      <h3>Form Komentar</h3>
+      <form>
+        <label for="nama">Nama:</label><br />
+        <input type="text" id="nama" name="nama" /><br />
+        <label for="isi">Komentar:</label><br />
+        <textarea id="isi" name="isi"></textarea><br />
+        <button type="submit">Kirim</button>
+      </form>
+      <h3>Daftar Komentar</h3>
+      <div>
+        <img src="photo-komentator1.jpg" alt="Foto Komentator" width="50" />
+        <strong>Andi</strong>
+        <p>Sangat membantu, terima kasih!</p>
+      </div>
+      <div>
+        <img src="photo-komentator2.jpg" alt="Foto Komentator" width="50" />
+        <strong>Siti</strong>
+        <p>Penjelasannya mudah dipahami.</p>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Form Pendaftaran -->
+    <section id="form-pendaftaran">
+      <h1>Form Pendaftaran</h1>
+      <img src="form-pendaftaran.jpg" alt="Gambar Formulir" width="200" />
+      <form>
+        <label for="nama2">Nama Lengkap:</label><br />
+        <input type="text" id="nama2" name="nama2" /><br /><br />
+
+        <label>Jenis Kelamin:</label><br />
+        <input type="radio" id="pria" name="jk" value="Pria" />
+        <label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="jk" value="Wanita" />
+        <label for="wanita">Wanita</label><br /><br />
+
+        <label for="tempat">Tempat Lahir:</label><br />
+        <input type="text" id="tempat" name="tempat" /><br /><br />
+
+        <label for="tanggal">Tanggal Lahir:</label><br />
+        <input type="date" id="tanggal" name="tanggal" /><br /><br />
+
+        <label>Hobi:</label><br />
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca" />
+        <label for="membaca">Membaca</label>
+        <input type="checkbox" id="menulis" name="hobi" value="Menulis" />
+        <label for="menulis">Menulis</label>
+        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga" />
+        <label for="olahraga">Olahraga</label><br /><br />
+
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+
+        <input type="checkbox" id="setuju" name="setuju" required />
+        <label for="setuju">Saya setuju dengan syarat dan ketentuan</label
+        ><br /><br />
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <hr />
+    <section id="blog">
+      <h1>Judul Blog: Belajar HTML Dasar</h1>
+      <img
+        src="pngtree-top-tips-to-make-money-blogging-image_12958761.jpg"
+        alt="Gambar Blog"
+        width="400"
+      />
+      <hr />
+      <h2>Author</h2>
+      <img src="photo-author.jpg" alt="Foto Author" width="100" />
+      <p>Nama: Grace Evelin Siallagan</p>
+      <p>Tanggal Posting: 4 September 2025</p>
+      <h3>Label:</h3>
+      <ul>
+        <li>HTML</li>
+        <li>Pemrograman Web</li>
+        <li>Dasar</li>
+      </ul>
+    </section>
+    <!-- ...existing code... -->
+    <!-- Tabel Nilai -->
+    <section id="tabel-nilai">
+      <h1>Tabel Perolehan Nilai</h1>
+      <img src="tabel-nilai.jpg" alt="Gambar Tabel Nilai" width="200" />
+      <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Matematika</th>
+          <th>Fisika</th>
+          <th>Kimia</th>
+          <th>Biologi</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Grace Evelin Siallagan</td>
+          <td>90</td>
+          <td>85</td>
+          <td>88</td>
+          <td>92</td>
+          <td>355</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Andi</td>
+          <td>80</td>
+          <td>78</td>
+          <td>85</td>
+          <td>80</td>
+          <td>323</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Siti</td>
+          <td>88</td>
+          <td>90</td>
+          <td>87</td>
+          <td>89</td>
+          <td>354</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+
+    <!-- CV -->
+    <section id="cv">
+      <h1>Curriculum Vitae</h1>
+      <img src="photo-cv.jpg" alt="Foto Pribadi" width="150" />
+      <h2>Grace Evelin Siallagan</h2>
+      <img src="cv-banner.jpg" alt="Banner CV" width="400" />
+      <h3>Tentang</h3>
+      <p>
+        Mahasiswa Informatika yang bersemangat belajar dan mengembangkan diri di
+        bidang teknologi informasi.
+      </p>
+      <h3>Kontak</h3>
+      <ul>
+        <li>Email: graceevelin@email.com</li>
+        <li>WhatsApp: 0812-3456-7890</li>
+      </ul>
+      <h3>Riwayat Pendidikan</h3>
+      <ul>
+        <li>SD Negeri 1 Medan (2010-2016)</li>
+        <li>SMP Negeri 2 Medan (2016-2019)</li>
+        <li>SMA Negeri 3 Medan (2019-2022)</li>
+        <li>Universitas Informatika (2022-sekarang)</li>
+      </ul>
+      <h3>Pengalaman</h3>
+      <ul>
+        <li>Asisten Praktikum Pemrograman Web (2024)</li>
+        <li>Peserta Lomba Coding Nasional (2023)</li>
+      </ul>
+      <h3>Keahlian</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+      <h3>Sertifikat</h3>
+      <ul>
+        <li>Sertifikat Pelatihan Web Development (2023)</li>
+        <li>Sertifikat Python Programming (2024)</li>
+      </ul>
+      <h3>Portfolio</h3>
+      <ul>
+        <li><a href="#">Website Pribadi</a></li>
+        <li><a href="#">Aplikasi Manajemen Tugas</a></li>
+      </ul>
+    </section>
+  </body>
+</html>
